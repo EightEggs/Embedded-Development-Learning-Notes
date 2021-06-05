@@ -16,3 +16,4 @@ Also, if you find any mistakes, or just want to talk about something, welcome to
 2.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)。
 3.  各位看官能不能点一下页面右上角那个⭐star，阿里嘎多🥰。
 4.  我才没有摸🐟。
+5.  hello,gitee!
