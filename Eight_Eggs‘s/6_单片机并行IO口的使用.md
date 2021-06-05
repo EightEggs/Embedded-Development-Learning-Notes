@@ -19,4 +19,4 @@ P1 = 0xFF; // 读入P1电平前，先输出高电平
 i = P1; // 读入P1电平保存到变量i
 ```
 
-![image](./src/6_img_io.png)
+![image](../src/6_img_io.png)
