@@ -2,7 +2,7 @@
 
 ## 示例采用在定时器中断里实现显示
 
-- 主要头文件：`timer.h, oled.h`
+- 主要头文件：`timer.h, oled.h, stdio.h`
 
 - 主要源文件：`timer.c, oled.c`
 
