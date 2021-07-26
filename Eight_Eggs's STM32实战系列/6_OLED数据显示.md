@@ -10,7 +10,7 @@
 
   ```c
   void TIMx_Int_Init(u16 arr, u16 psc); // 计时器初始化
-  void TIMx_IRQHandler(void); // TIMx中断
+  void TIMx_IRQHandler(void); // TIMx中断处理
   void OLED_Init(void); // OLED初始化
   void OLED_ColorTurn(bool flag); // 是否反色显示
   void OLED_DisplayTurn(bool flag); // 是否翻转显示
