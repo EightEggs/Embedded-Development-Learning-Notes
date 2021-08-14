@@ -13,4 +13,3 @@
 >  [mpvue.com](http://mpvue.com/)
 
 ## *自行配置即可*
-

@@ -2,3 +2,4 @@
 *.pptx
 *.pdf
 .vs
+.vscode
