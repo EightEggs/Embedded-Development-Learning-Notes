@@ -11,6 +11,8 @@
 > ./src/App.vue
 >
 > ./src/main.js
+>
+> ./static
 
 ## 安装插件
 
