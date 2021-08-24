@@ -6,7 +6,9 @@
 
 ## 参考源码
 
-```scss
+> 注：数据不代表真实情况。
+
+```html
 <template>
 	<div class="wrapper">
 		<div class="header-wrapper"> </div>
@@ -66,7 +68,9 @@
 		</div>
 	</div>
 </template>
+```
 
+```scss
 <style lang="scss" scoped>
 .wrapper {
     padding: 15px;

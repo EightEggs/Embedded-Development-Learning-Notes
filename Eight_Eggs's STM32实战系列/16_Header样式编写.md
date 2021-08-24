@@ -8,7 +8,7 @@
 
 > 注：数据不代表真实情况。
 
-```scss
+```html
 <template>
 	<div class="wrapper"> </div>
 		<div class="header-wrapper"> </div>
@@ -23,7 +23,9 @@
 			<div class="weather-advice">空气质量良好，健康人群外出活动无需刻意防护</div>
 		<div class="body-wrapper"> </div>
 </template>
+```
 
+```scss
 <style lang="scss" scoped>
 .wrapper {
     padding: 15px;
