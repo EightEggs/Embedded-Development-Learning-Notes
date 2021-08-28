@@ -116,6 +116,9 @@
             .data-text {
                 margin-top: 15px;
                 color: #7f7f7f;
+                .data-title {
+                    text-align: right;
+                }
                 .data-value {
                     font-size: 26px;
                 }
