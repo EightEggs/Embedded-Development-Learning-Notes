@@ -1,7 +1,3 @@
-
-
-
-
 # STM32系统时钟RCC详解
 
 > **参考：**
@@ -205,4 +201,3 @@ void RCC_Configuration(void)
 STM32还提供了一个时钟监视系统（CSS），用于监视高速外部时钟（HSE）的工作状态。倘若HSE失效，会自动切换（高速内部时钟）HSI作为系统时钟的输入，保证系统的正常运行。
 
 ![image](../src/css.png)
-
