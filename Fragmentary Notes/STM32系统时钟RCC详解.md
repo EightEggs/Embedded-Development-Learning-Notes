@@ -177,7 +177,7 @@ vu32 CSR;
 ```c
 void RCC_Configuration(void)
 {
-	//-----------------使用外部RC晶振------------------//
+	//-----------------使用外部RC晶振--------------------//
 	RCC_DeInit();			//初始化为缺省值
 	RCC_HSEConfig(RCC_HSE_ON);	//使能外部的高速时钟 
 	while(RCC_GetFlagStatus(RCC_FLAG_HSERDY) == RESET);	//等待外部高速时钟使能就绪
@@ -191,7 +191,7 @@ void RCC_Configuration(void)
 	while(RCC_GetFlagStatus(RCC_FLAG_PLLRDY) == RESET);	//Wait till PLLCLK is ready
 	RCC_SYSCLKConfig(RCC_SYSCLKSource_PLLCLK);	//Select PLL as system clock
 	while(RCC_GetSYSCLKSource()!=0x08);		//Wait till PLL is used as system clock source	
-	//---------------打开相应外设时钟--------------------//
+	//-----------------打开相应外设时钟-------------------//
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA,ENABLE);	//使能APB2外设的GPIOA的时钟		 
 }
 ```
