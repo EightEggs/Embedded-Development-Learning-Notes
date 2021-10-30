@@ -1,6 +1,6 @@
 # STM32系统时钟RCC详解
 
-> **参考：**
+> 参考：
 >
 > [【STM32】系统时钟RCC详解(超详细，超全面)_Z小旋-CSDN博客](https://blog.csdn.net/as480133937/article/details/98845509)
 
